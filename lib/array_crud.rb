@@ -39,7 +39,7 @@ def retrieve_first_element_from_array(new_array)
   new_array.first
 end
 
-def retrieve_last_element_from_array(array)
+def retrieve_last_element_from_array(new_array)
   new_array = ["wow", "I", "am", "really", "learning", "arrays!"]
   new_array.last
 end
