@@ -25,7 +25,8 @@ def remove_element_from_end_of_array(new_array)
 end
 
 def remove_element_from_start_of_array(new_array)
-  
+  new_array = [1,2,3,4, "arrays!"]
+  first_element = new_array.shift
 end
 
 def retrieve_element_from_index(new_array, element)
