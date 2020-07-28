@@ -6,8 +6,8 @@ def create_an_array
   new_array = [1,2,3,4]
 end
 
-def add_element_to_end_of_array(new_array, new_number)
-  new_number = "5"
+def add_element_to_end_of_array(new_array, element)
+  element = "5"
   new_array.push(new_number) 
   
 end
