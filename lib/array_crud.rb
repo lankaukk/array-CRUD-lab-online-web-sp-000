@@ -13,7 +13,7 @@ def add_element_to_end_of_array(new_array, element)
   
 end
 
-def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array(new_array, element)
   new_array = [1,2,3,4]
   element = "arrays!"
   new_array.unshift(element) 
