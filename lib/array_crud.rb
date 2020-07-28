@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(new_array, "five")
-  new_array << "five" 
+  new_array.push("five") 
   
 end
 
