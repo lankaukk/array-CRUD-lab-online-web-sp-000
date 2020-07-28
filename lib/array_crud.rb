@@ -22,7 +22,7 @@ end
 def remove_element_from_end_of_array(new_array)
   new_array = [1,2,3,4]
   element = "arrays!"
-  new_array.push(element) 
+  new_array.pop(element) 
 end
 
 def remove_element_from_start_of_array(array)
