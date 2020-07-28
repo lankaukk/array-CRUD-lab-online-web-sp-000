@@ -21,7 +21,7 @@ end
 
 def remove_element_from_end_of_array(new_array)
   new_array = [1,2,3,4, "arrays!"]
-  
+  last_element = new_array.pop
   new_array.pop("arrays!") 
 end
 
