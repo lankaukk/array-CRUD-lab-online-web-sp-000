@@ -14,7 +14,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   element = "arrays!"
-  new_array.push(element) 
+  new_array.unshift(element) 
 end
 
 def remove_element_from_end_of_array(array)
